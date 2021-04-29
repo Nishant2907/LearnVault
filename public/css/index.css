@@ -2,14 +2,14 @@ body {
   font-family: "Montserrat";
   background-color: #282a34 !important;
   text-align: center;
-  background-image: url("images/bg.jpg") !important;
+  background-image: linear-gradient(#662D8C , #ED1E79);
 
 } 
  
-/* .logo {
+.logo {
   width: 7%;
   height: 7%;
-}  */
+} 
 
  #title {
   /* background: #ffbf00; */
@@ -18,7 +18,8 @@ body {
 
 .cover {
   /* background: #2b2d34 url("https://images.wallpapersden.com/image/download/colorful-neon-bubbles_a2dtaWmUmZqaraWkpJRmbmdlrWZlbWU.jpg") center !important; */
-  background-size: cover;
+  /* background-size: cover; */
+  /* background: #2b2d34 url("images/grey.jpg") center !important; */
   /* background-image: url("images/bg.jpg") !important; */
   min-height: 50rem;
   height: auto;
@@ -162,7 +163,7 @@ background-color: #282A34;
 /* footer */
 #footer {
   padding: 2rem 5rem 2rem;
-  background: #000;
+  background-color: rgba(0,0,0,0);
 }
 
 .footer-description {
